@@ -1,0 +1,7 @@
+Forgot to give you the assessment for next tuesday, please try to reproduce this portfolio section with the project you builded with Marie.
+
+- You can reproduce the card the same way as the skills section.
+- If your projects are not online. Then push them to github/gitlab and use the place the link in your Card. ( Future employer would be able to look at ur code.
+- If your project doesn't contain some php then you can try to use "Github Page" to host it for free ( a quick search on youtube and you will find something to help you to do it.
+
+To get an idea of the portfolio section here is a picture.

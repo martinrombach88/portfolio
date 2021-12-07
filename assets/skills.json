@@ -1,0 +1,20 @@
+{
+    "skills" : [
+        {
+            "title": "Javascript",
+            "image_path": "./assets/images/javascriptlogo.png",
+            "text": "A year's study of the IT world's most popular language. Experience with Javascript fundamentals, DOM and AJAX in solo and group projects."
+            
+        },
+        {
+            "title": "PHP",
+            "image_path": "./assets/images/phplogo.jpg",
+            "text": "A wonderful backend tool, this has opened my eyes to web development's depths. Learning this with deep interest."
+        },
+        {
+            "title": "mySQL",
+            "image_path": "./assets/images/mysql_logo.png",
+            "text": "Years of Data Entry experience made it easy to transition to this database tool. Comfortable using it in projects. "
+        }
+    ]
+}

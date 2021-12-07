@@ -1,0 +1,196 @@
+body {
+    font-family: 'Zen Maru Gothic','Franklin Gothic Medium', sans-serif;
+    margin:0;
+    padding:0;
+}    
+
+section {
+    height: 100vh;
+}
+
+h3, h4 {
+    margin:0;
+}
+
+a {
+    text-decoration:none;
+    color:black;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~ NAV BAR ~~~~~~~~~~~~~~~~~~~~~~ */
+
+#first {
+    background-color:rgb(237,245,224);
+}
+
+#navBar {
+
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#navBar ul{
+    display:flex;
+}
+
+li {
+    list-style:none;
+    margin-right:8px;
+}
+
+
+#mainTitle {
+    font-size:1.8em;
+    text-align: center;
+    margin-top: 40vh;
+
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~ ABOUT ME  ~~~~~~~~~~~~~~~~~~~~ */
+
+#aboutMe {
+    background-color: rgb(141,228,175);
+    /* display:flex;
+    flex-direction:column; */
+}
+
+h1 {
+    font-size:3.2em;
+    margin-top: 0;
+    padding-top: 80px;
+    text-align: center;
+    
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~ ABOUT LEFT  ~~~~~~~~~~~~~~~~~~~~ */
+
+#aboutMe div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#profileImg {
+    width:240px;
+}
+
+.icon {
+    width:50px;
+}
+
+#aboutLeft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+.buttonLeft {
+    font-family: 'Zen Maru Gothic','Franklin Gothic Medium', sans-serif;
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    
+    color:white;
+}
+
+.canPress {
+    cursor: pointer;
+}
+
+.canPress:active {
+    transform: translate(0.1rem, 0.1rem);
+
+} 
+.lightGreen {
+    background-color:rgb(56,149,131);
+    border:1px rgb(56,149,131) solid;
+}
+
+.darkGreen {
+    background-color:rgb(5,57,107);
+    border:1px rgb(5,57,107) solid;
+    
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~ ABOUT RIGHT  ~~~~~~~~~~~~~~~~~~~~ */
+#aboutRight {
+    width: 50%;
+    flex-direction:column;
+    justify-content:flex-start;
+}
+
+#aboutRightSkills img {
+    width:100px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~ CARD CONTAINERS ~~~~~~~~~~~~~~~~~~~~ */
+
+.cards {
+    justify-content: center;
+    background-color:rgb(5,57,107);
+}
+
+.cardContainer {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    background-color:rgb(5,57,107);
+}
+
+.cards h2 {
+    color:#FFFFFF;
+    font-size:2.2em;
+    margin-top: 0;
+    padding-top:40px;
+    padding-bottom:40px;
+    text-align: center;
+}
+
+.card {
+    border-radius: 10px;
+    border: 2px solid #FFFFFF;
+    padding: 10px;
+    background: #FFFFFF;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:250px;
+    height: 280px;
+    
+}
+
+.card p{
+    margin-left:10px;
+    margin-bottom:5px;
+}
+
+.logo {
+    margin-top:10px;
+    width:100px;
+}
+
+/* #skills {
+    background-color:rgb(5,57,107);
+}
+
+#jsSection {
+    background-color:rgb(56,149,131);
+} */
+
+.projectLogo {
+    width: 50%;
+    }
+
+.innerDiv {
+    display:flex;
+    justify-content:space-around;
+}
+
+.innerDiv a{
+    align-self:flex-start;
+    text-decoration:none;
+    font-weight:bolder;
+    color:black;
+    
+}

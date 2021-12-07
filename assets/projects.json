@@ -1,0 +1,18 @@
+{
+    "projects" : [
+        {
+            "title": "Star Wars Quotes",
+            "image_path": "./assets/images/starwars.png",
+            "text": "A Star Wars movie quote generator. Code includes Javascript DOM manipulation and AJAX.",
+            "website": "https://martinrombach88.github.io/star_wars_quotes/",
+            "code": "https://github.com/martinrombach88/star_wars_quotes"
+        },
+        {
+            "title": "City Weather Search",
+            "image_path": "./assets/images/weather.png",
+            "text": "A site to search for the weather of any city. Code uses API calls, heavy multi-functional DOM manipulation and loops.",
+            "website": "https://martinrombach88.github.io/city_weather_search/",
+            "code": "https://github.com/martinrombach88/city_weather_search"
+        }
+    ]
+}
