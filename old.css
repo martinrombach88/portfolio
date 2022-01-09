@@ -1,0 +1,44 @@
+/*~~~~~~~~~~~~~~~~~~~~ ABOUT LEFT  ~~~~~~~~~~~~~~~~~~~~*/
+
+#aboutMe div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#profileImg {
+    width:240px;
+}
+
+.icon {
+    width:50px;
+}
+
+#aboutLeft{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+}
+
+.buttonLeft {
+    font-family: 'Zen Maru Gothic','Franklin Gothic Medium', sans-serif;
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    
+    color:white;
+}
+
+
+
+
+/* ~~~~~~~~~~~~~~~~~~~~ ABOUT RIGHT  ~~~~~~~~~~~~~~~~~~~~ */
+#aboutRight {
+    width: 50%;
+    flex-direction:column;
+    justify-content:flex-start;
+}
+
+#aboutRightSkills img {
+    width:100px;
+}

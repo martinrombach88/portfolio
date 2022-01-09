@@ -8,90 +8,13 @@ section {
     height: 100vh;
 }
 
-h3, h4 {
+h3{
     margin:0;
 }
 
 a {
     text-decoration:none;
     color:black;
-}
-
-/* ~~~~~~~~~~~~~~~~~~~~~~ NAV BAR ~~~~~~~~~~~~~~~~~~~~~~ */
-
-#first {
-    background-color:rgb(237,245,224);
-}
-
-#navBar {
-
-    display:flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-
-#navBar ul{
-    display:flex;
-}
-
-li {
-    list-style:none;
-    margin-right:8px;
-}
-
-
-#mainTitle {
-    font-size:1.8em;
-    text-align: center;
-    margin-top: 40vh;
-
-}
-
-/* ~~~~~~~~~~~~~~~~~~~~ ABOUT ME  ~~~~~~~~~~~~~~~~~~~~ */
-
-#aboutMe {
-    background-color: rgb(141,228,175);
-    /* display:flex;
-    flex-direction:column; */
-}
-
-h1 {
-    font-size:3.2em;
-    margin-top: 0;
-    padding-top: 80px;
-    text-align: center;
-    
-}
-
-/* ~~~~~~~~~~~~~~~~~~~~ ABOUT LEFT  ~~~~~~~~~~~~~~~~~~~~ */
-
-#aboutMe div{
-    display: flex;
-    justify-content: space-evenly;
-}
-
-#profileImg {
-    width:240px;
-}
-
-.icon {
-    width:50px;
-}
-
-#aboutLeft{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 30%;
-}
-
-.buttonLeft {
-    font-family: 'Zen Maru Gothic','Franklin Gothic Medium', sans-serif;
-    height: 30px;
-    width: 100px;
-    margin-top: 10px;
-    
-    color:white;
 }
 
 .canPress {
@@ -106,25 +29,138 @@ h1 {
     background-color:rgb(56,149,131);
     border:1px rgb(56,149,131) solid;
 }
+/* ~~~~~~~~~~~~~~~~~~~~~~ NAV BAR ~~~~~~~~~~~~~~~~~~~~~~ */
+
+#first {
+    background-color:rgb(237,245,224);
+}
+
+#menu {
+    position: fixed;
+    left:0;
+    margin:0;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    letter-spacing: 1px;
+    background-color:rgb(237,245,224);
+    z-index: 70;
+    /* border-bottom: 2px black solid; */
+}
+
+#menu h4, ul{
+    margin-top:1%;
+    margin-bottom:1%;
+}
+
+#menu ul{
+    display:flex;
+}
+
+#menu h4 {
+    margin-left:1%;
+}
+
+li {
+    list-style:none;
+    margin-right:8px;
+}
+
+
+#intro {
+    font-size:1.8em;
+    text-align: center;
+    height:600px;
+    padding-top:300px;
+
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~ SCROLLBAR  ~~~~~~~~~~~~~~~~~~~~ */
+
+::-webkit-scrollbar {
+    width: 20px;
+    display:none;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    /* box-shadow: inset 0 0 5px grey;  */
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(107, 107, 107); 
+    border-radius: 10px;
+    border: 1px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
+/* ~~~~~~~~~~~~~~~~~~~~ ABOUT ME  ~~~~~~~~~~~~~~~~~~~~ */
+
+#homeSection {
+    background-color: rgb(141,228,175);
+    height:100vh;
+    /* display:flex;
+    flex-direction:column; */
+}
+
+h1 {
+    font-size:3.2em;
+    margin-top: 0;
+    padding-top: 80px;
+    text-align: center;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~ PROJECTS ~~~~~~~~~~~~~~~~~~~~ */
+
+#projectsSection h2{
+    color:#FFFFFF;
+    font-size:2.2em;
+    text-align: center;
+    margin-top:40px;
+}
+
+#projectsSection {
+    background-color:rgb(5,57,107);
+    padding:10px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+} 
+
+#computer {
+    height: 60%;
+    border: 30px rgb(177, 177, 177) solid;
+    border-radius: 8px;
+    overflow:hidden;
+    align-self:center;
+    margin-left:50px;
+    margin-right:50px;
+}
+
+#computerButton {
+    height:30px;
+    background-color: firebrick;
+    border-radius:50%;
+    position:relative;
+}
+
+#base {
+    height:200px;
+    width:200px;
+    background-color:rgb(177, 177, 177) solid;
+}
 
 .darkGreen {
     background-color:rgb(5,57,107);
     border:1px rgb(5,57,107) solid;
     
 }
-
-/* ~~~~~~~~~~~~~~~~~~~~ ABOUT RIGHT  ~~~~~~~~~~~~~~~~~~~~ */
-#aboutRight {
-    width: 50%;
-    flex-direction:column;
-    justify-content:flex-start;
-}
-
-#aboutRightSkills img {
-    width:100px;
-}
-
-/* ~~~~~~~~~~~~~~~~~~~~ CARD CONTAINERS ~~~~~~~~~~~~~~~~~~~~ */
 
 .cards {
     justify-content: center;
@@ -170,13 +206,7 @@ h1 {
     width:100px;
 }
 
-/* #skills {
-    background-color:rgb(5,57,107);
-}
 
-#jsSection {
-    background-color:rgb(56,149,131);
-} */
 
 .projectLogo {
     width: 50%;

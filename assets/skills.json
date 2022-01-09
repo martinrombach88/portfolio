@@ -1,6 +1,12 @@
 {
     "skills" : [
         {
+            "title": "React",
+            "image_path": "./assets/images/react.png",
+            "text": "Building in React is my latest challenge. Really impressed with how intuitive and powerful Facebook's new frontend tool is."
+            
+        },
+        {
             "title": "Javascript",
             "image_path": "./assets/images/javascriptlogo.png",
             "text": "A year's study of the IT world's most popular language. Experience with Javascript fundamentals, DOM and AJAX in solo and group projects."
