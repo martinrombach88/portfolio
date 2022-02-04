@@ -4248,7 +4248,8 @@ new fullpage('#fullpage', {
     menu: '#navBar',
     fixedElements: '#header, .footer',
     scrollBar: true,
-    anchors:['firstPage', 'secondPage', 'thirdPage']
+    anchors:['firstPage', 'secondPage', 'thirdPage'],
+    
 });
 
 //methods

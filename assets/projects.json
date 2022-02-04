@@ -1,33 +1,41 @@
 {
     "projects" : [
         {
-            "title": "School Portal",
-            "image_path": "./assets/images/schoolportal.png",
-            "text": "A school portal website with editable courses, posts and users. Group project with 4 other developers. Project made in JS and PHP.",
-            "size": "Small.",
+            "title": "Korean Listening App",
+            "image_path": "./assets/images/korean.jpeg",
             "website": "#",
             "code": "https://github.com/martinrombach88/batch14-project"
         },
 
         {
-            "title": "City Weather Search",
-            "image_path": "./assets/images/weather.png",
-            "text": "A site to search for the weather of any city. JS Code uses API calls, heavy multi-functional DOM manipulation and loops.",
-            "website": "https://martinrombach88.github.io/city_weather_search/",
-            "code": "https://github.com/martinrombach88/city_weather_search"
+            "title": "B2B Landing Page",
+            "image_path": "./assets/images/maskLogo.png",
+            "website": "https://martinrombach88.github.io/b2b_masks_landing_page/",
+            "code": "https://github.com/martinrombach88/b2b_masks_landing_page/"
         },
 
         {
             "title": "Git Hub Repo Search",
             "image_path": "./assets/images/github.png",
-            "text": "An app for searching Github repository lists of users. Built in React, the code includes useState, useEffect, multiple components and hooks.",
             "website": "https://martinrombach88.github.io/git_repo_search/",
             "code": "https://github.com/martinrombach88/git_repo_search"
         },
         {
+            "title": "City Weather Search",
+            "image_path": "./assets/images/weather.png",
+            "website": "https://martinrombach88.github.io/city_weather_search/",
+            "code": "https://github.com/martinrombach88/city_weather_search"
+        },
+        {
+            "title": "School Portal",
+            "image_path": "./assets/images/schoolportal.png",
+            "website": "#",
+            "code": "https://github.com/martinrombach88/batch14-project"
+        },
+        {
             "title": "Star Wars Quotes",
             "image_path": "./assets/images/starwars.png",
-            "text": "A Star Wars movie quote generator. Code includes Javascript DOM manipulation and AJAX.",
+
             "website": "https://martinrombach88.github.io/star_wars_quotes/",
             "code": "https://github.com/martinrombach88/star_wars_quotes"
         }
