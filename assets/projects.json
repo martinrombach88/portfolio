@@ -3,41 +3,36 @@
         {
             "title": "Korean Listening App",
             "image_path": "./assets/images/korean.jpeg",
-            "website": "#",
-            "code": "https://github.com/martinrombach88/batch14-project"
+            "website": "https://martinrombachdev.com/korean_listening_app/",
+            "code": "https://github.com/martinrombach88/korean_listening_app/"
         },
 
         {
             "title": "B2B Landing Page",
             "image_path": "./assets/images/maskLogo.png",
-            "website": "https://martinrombach88.github.io/b2b_masks_landing_page/",
+            "website": "https://martinrombachdev.com/b2b_masks_landing_page/",
             "code": "https://github.com/martinrombach88/b2b_masks_landing_page/"
         },
 
         {
             "title": "Git Hub Repo Search",
             "image_path": "./assets/images/github.png",
-            "website": "https://martinrombach88.github.io/git_repo_search/",
+            "website": "https://martinrombachdev.com/git_repo_search/",
             "code": "https://github.com/martinrombach88/git_repo_search"
         },
         {
             "title": "City Weather Search",
             "image_path": "./assets/images/weather.png",
-            "website": "https://martinrombach88.github.io/city_weather_search/",
+            "website": "https://martinrombachdev.com/city_weather_search/",
             "code": "https://github.com/martinrombach88/city_weather_search"
         },
         {
             "title": "School Portal",
             "image_path": "./assets/images/schoolportal.png",
-            "website": "#",
-            "code": "https://github.com/martinrombach88/batch14-project"
-        },
-        {
-            "title": "Star Wars Quotes",
-            "image_path": "./assets/images/starwars.png",
-
-            "website": "https://martinrombach88.github.io/star_wars_quotes/",
-            "code": "https://github.com/martinrombach88/star_wars_quotes"
+            "website": "https://martinrombachdev.com/school_portal",
+            "code": "https://github.com/martinrombach88/school_portal"
         }
+
     ]
 }
+
