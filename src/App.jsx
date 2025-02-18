@@ -1,4 +1,6 @@
 import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+//import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
 
