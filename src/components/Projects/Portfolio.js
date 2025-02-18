@@ -62,7 +62,7 @@ export const projects = [
     description: null,
     technology: ["React.js | ", "Material UI"],
     sourceCode: "https://github.com/martinrombach88/korean_listening_app/",
-    livePreview: "https://martinrombachdev.com/korean_listening_app/",
+    livePreview: "https://martinrombach88.github.io/korean_listening_app/",
     image: "/images/korean_app/korean_app.webp",
     imageList: [
       "/images/korean_app/korean_app1.webp",
@@ -71,22 +71,6 @@ export const projects = [
       "/images/korean_app/korean_app4.webp",
     ],
     mobile: true,
-  },
-
-  {
-    name: "Github Repo Search",
-    overview:
-      "A search app that returns Github users profile information and repositories.",
-
-    technology: ["React | ", "Material UI"],
-    sourceCode: "https://github.com/martinrombach88/git_repo_search",
-    livePreview: "https://martinrombachdev.com/git_repo_search/",
-    image: "//images//git_search/git_search.webp",
-    imageList: [
-      "/images//git_search/git_search1.webp",
-      "/images//git_search/git_search2.webp",
-      "/images//git_search/git_search3.webp",
-    ],
   },
 ];
 
