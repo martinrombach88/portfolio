@@ -1,0 +1,45 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  position: relative;
+  height: 50%;
+  width: 30%;
+  margin: 5% 10%;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.contact a {
+  font-size: 6em;
+  color: rgb(255, 255, 255);
+  margin: 2%;
+}
+
+.contact a:hover {
+  color: rgb(0, 0, 0);
+  transform: scale(1.1);
+  transition-duration: 1.5s;
+}
+
+@media (max-width: 650px) {
+  .contact {
+    display: flex;
+    position: relative;
+    height: 50%;
+    color: rgb(255, 255, 255);
+    justify-content: start;
+    width: 100%;
+    padding-top: 25%;
+  }
+
+  .contact a {
+    font-size: 4.5em;
+    color: rgb(255, 255, 255);
+    margin: 2%;
+  }
+
+  .contact a:hover {
+    color: rgb(255, 255, 255);
+  }
+}

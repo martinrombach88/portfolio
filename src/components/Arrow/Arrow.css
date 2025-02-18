@@ -1,0 +1,76 @@
+.arrow {
+  position: absolute;
+  --animation: shift;
+  animation: var(--animation, none) 1s infinite linear;
+  /* cursor: pointer; */
+}
+
+.arrow:hover {
+  cursor: pointer;
+  color: rgb(80, 192, 206);
+}
+
+@keyframes shift {
+  0% {
+    transform: translateY(-10%);
+  }
+  50% {
+    transform: translateY(10%);
+  }
+  100% {
+    transform: translateY(-10%);
+  }
+}
+
+.arrow__Low {
+  bottom: 0%;
+}
+
+.arrow__VeryLow {
+  bottom: -20%;
+}
+
+.arrow__Mid {
+  bottom: 10%;
+  right: 5%;
+  display: flex;
+}
+
+.arrow__High {
+  top: 45%;
+}
+
+.arrow__HighRight {
+  bottom: 40%;
+  right: 8%;
+}
+
+.arrow__HighCenter {
+  bottom: 45%;
+}
+
+.arrow__ContactHeight {
+  top: 10%;
+  right: 10%;
+  color: white;
+}
+
+@media (max-width: 650px) {
+  .arrow {
+    display: none;
+  }
+}
+
+.arrow__MidBottom {
+  bottom: 10%;
+}
+
+.arrow__BottomLeft {
+  bottom: 5%;
+  left: 2%;
+}
+
+.arrow__BottomRight {
+  bottom: 5%;
+  right: 2%;
+}
