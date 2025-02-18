@@ -8,7 +8,7 @@ const Projects = forwardRef(({ refFunction }, ref) => {
   const [isCopied, setIsCopied] = useState(false);
 
   //Function from LogRocket - errors because deployment broke
-  /*
+
   async function copyTextToClipboard(text) {
     if ("clipboard" in navigator) {
       return await navigator.clipboard.writeText(text);
@@ -16,8 +16,8 @@ const Projects = forwardRef(({ refFunction }, ref) => {
       return document.execCommand("copy", true, text);
     }
   }
-*/
-  /* onClick handler function for the copy button
+
+  // onClick handler function for the copy button
   const handleCopyClick = (copyText) => {
     // Asynchronously call copyTextToClipboard
     copyTextToClipboard(copyText)
@@ -32,7 +32,7 @@ const Projects = forwardRef(({ refFunction }, ref) => {
         console.log(err);
       });
   };
-*/
+
   if (!projects.length) return null;
   return (
     <div className="projects">
