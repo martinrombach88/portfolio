@@ -1,0 +1,14 @@
+So far: 
+ - local file is displaying correctly
+ - code is deploying successfully
+ - blank screen is showing. example vite deployment is being used.
+ Error:
+martinrombach88.github.io/:1 Failed to load module script: 
+Expected a JavaScript module script but the server responded with a MIME type of "text/html". 
+Strict MIME type checking is enforced for module scripts per HTML spec. 
+martinrombach88.github.io/:1 Uncaught (in promise) Error: 
+A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
+
+ - example repo found and workflow made, latest package versions used for workflow
+ - installed "@vitejs/plugin-react-swc" and added other fixes only because they were present
+ in original repo.
