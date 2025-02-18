@@ -10,7 +10,7 @@ export const projects = [
   {
     name: "CICD Calculator API",
     overview:
-      'A calculator API built to explore CICD and TDD. Accepts + - / * and single bracket equation strings. To use, send a JSON object in this syntax {"expression": "1 + 1"} via POST request. Redeployed on Azure in 2025.',
+      'A calculator API built to explore CICD and TDD. Accepts + - / * and single bracket equation strings. To use, send a JSON object in this syntax {"expression": "1 + 1"} via POST request.',
     technology: [
       "Node.js | ",
       " Github Actions | ",
@@ -21,8 +21,6 @@ export const projects = [
     ],
     deploymentGallery: "https://imgur.com/a/KGYuRRz",
     sourceCode: "https://github.com/martinrombach88/js_cicd_calculator",
-    APIendpoint:
-      "https://js-cicd-calculator-appservice.azurewebsites.net/calculation-result",
   },
   {
     name: "IMTV Home",
