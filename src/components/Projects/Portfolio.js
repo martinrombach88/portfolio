@@ -59,18 +59,9 @@ export const projects = [
     name: "Korean Listening By Sentence",
     overview:
       "A Korean repetitive listening app that splits audio files into segments.",
-    description: null,
     technology: ["React.js | ", "Material UI"],
     sourceCode: "https://github.com/martinrombach88/korean_listening_app/",
     livePreview: "https://martinrombach88.github.io/korean_listening_app/",
-    image: "/images/korean_app/korean_app.webp",
-    imageList: [
-      "/images/korean_app/korean_app1.webp",
-      "/images/korean_app/korean_app2.webp",
-      "/images/korean_app/korean_app3.webp",
-      "/images/korean_app/korean_app4.webp",
-    ],
-    mobile: true,
   },
 ];
 
