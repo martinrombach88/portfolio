@@ -1,5 +1,5 @@
 import "./Arrow.css";
-import { useRef, forwardRef } from "react";
+import { forwardRef } from "react";
 
 const Arrow = forwardRef(({ scrollTo, direction, heightClass }) => {
   let height = null;

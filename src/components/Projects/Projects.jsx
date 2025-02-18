@@ -1,13 +1,14 @@
-import { projects } from "../../assets/Portfolio";
+import { projects } from "./Portfolio";
 import Arrow from "../Arrow/Arrow";
 import "./Projects.css";
 import Accordion from "react-bootstrap/Accordion";
-import { useState, useRef, forwardRef } from "react";
+import { useState, forwardRef } from "react";
 
 const Projects = forwardRef(({ refFunction }, ref) => {
   const [isCopied, setIsCopied] = useState(false);
 
-  //Function from LogRocket
+  //Function from LogRocket - errors because deployment broke
+
   async function copyTextToClipboard(text) {
     if ("clipboard" in navigator) {
       return await navigator.clipboard.writeText(text);

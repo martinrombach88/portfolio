@@ -3,8 +3,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
-import Arrow from "./components/Arrow/Arrow";
-import { useRef, forwardRef } from "react";
+
+import { useRef } from "react";
 
 function App() {
   const intRef = useRef();

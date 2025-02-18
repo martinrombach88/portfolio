@@ -9,6 +9,5 @@ Strict MIME type checking is enforced for module scripts per HTML spec.
 martinrombach88.github.io/:1 Uncaught (in promise) Error: 
 A listener indicated an asynchronous response by returning true, but the message channel closed before a response was received
 
- - example repo found and workflow made, latest package versions used for workflow
- - installed "@vitejs/plugin-react-swc" and added other fixes only because they were present
- in original repo.
+The problem isn't related to the vite project deployment (there are plenty of others with success)
+It's likely related to your module files.

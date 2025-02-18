@@ -2,9 +2,9 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import EmailIcon from "@mui/icons-material/Email";
 import Arrow from "../Arrow/Arrow";
-import { overview, overview__Modal } from "../../assets/Portfolio";
+import { overview } from "../Projects/Portfolio";
 import "./Contact.css";
-import { useRef, forwardRef } from "react";
+import { forwardRef } from "react";
 
 const Contact = forwardRef(({ refFunction }, ref) => {
   return (
