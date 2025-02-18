@@ -11,3 +11,5 @@ A listener indicated an asynchronous response by returning true, but the message
 
 The problem isn't related to the vite project deployment (there are plenty of others with success)
 It's likely related to your module files.
+
+The error is in one of the imported CSS files you used (bootstrap etc).
