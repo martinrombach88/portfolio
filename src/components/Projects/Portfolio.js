@@ -53,7 +53,6 @@ export const projects = [
       "EJS",
     ],
     sourceCode: "https://github.com/martinrombach88/update_imtv",
-    videoPreview: "https://youtu.be/VUWC-1OnwYE",
   },
   {
     name: "Korean Listening By Sentence",
