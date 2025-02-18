@@ -1,4 +1,4 @@
-const overview = {
+export const overview = {
   contact: {
     linkedin: "https://www.linkedin.com/in/martin-rombach-0a67b266/",
     github: "https://github.com/martinrombach88",
@@ -6,7 +6,7 @@ const overview = {
   },
 };
 
-const projects = [
+export const projects = [
   {
     name: "CICD Calculator API",
     overview:
@@ -88,153 +88,8 @@ const projects = [
       "/images//git_search/git_search3.webp",
     ],
   },
-
-  /*
-  {
-    name: "School Portal",
-    overview:
-      "A fullstack school portal website with editable courses, posts and users, built in a group of 5 during my wCoding Bootcamp. My contributions included create course, create post and profile image uploads, as well as acting as scrum master for a week.",
-
-    technology: [
-      "Javascript | ",
-      "PHP | ",
-      "MySQL | ",
-      "HTML | ",
-      "CSS | ",
-      "Git",
-    ],
-    sourceCode: "https://github.com/martinrombach88/school_portal",
-    videoPreview: "https://youtu.be/9vG8Z10I9Hk",
-  },*/
 ];
 
-const skills = [
-  "React",
-  "JavaScript",
-  "HTML",
-  "CSS",
-  "PHP",
-  "MySQL",
-  "Material UI",
-  "Git",
-  "Trello",
-];
-
-const contact = {
+export const contact = {
   email: "martinrombach88@gmail.com",
-};
-
-const modal = {
-  overlay: {
-    position: "fixed",
-    display: "flex",
-    top: 0,
-    left: 0,
-    right: 0,
-    bottom: 0,
-    backgroundColor: "rgba(0, 0, 0, 0.65)",
-  },
-};
-
-const overview__Modal = {
-  content: {
-    border: "1px solid #ccc",
-    background: "#fff",
-    overflow: "auto",
-    WebkitOverflowScrolling: "touch",
-    borderRadius: "4px",
-    outline: "none",
-  },
-  overlay: {
-    height: "100vh",
-    position: "fixed",
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    top: 0,
-    left: 0,
-    right: 0,
-    bottom: 0,
-    backgroundColor: "rgba(0, 0, 0, 0.65)",
-  },
-};
-
-const overview__ModalMobile = {
-  content: {
-    width: "90%",
-    border: "1px solid #ccc",
-    background: "#fff",
-    WebkitOverflowScrolling: "touch",
-    borderRadius: "4px",
-    outline: "none",
-    fontSize: "0.7em",
-  },
-  overlay: {
-    position: "fixed",
-    display: "flex",
-    height: "100vh",
-    justifyContent: "center",
-    paddingTop: "2%",
-    alignItems: "flex-start",
-    top: 0,
-    left: 0,
-    right: 0,
-    bottom: 0,
-    backgroundColor: "rgba(0, 0, 0, 0.65)",
-  },
-};
-
-const overview__ModalSmall = {
-  content: {
-    border: "1px solid #ccc",
-    background: "#fff",
-    overflow: "auto",
-    WebkitOverflowScrolling: "touch",
-    borderRadius: "4px",
-    outline: "none",
-    padding: "20px",
-  },
-  overlay: {
-    position: "fixed",
-    display: "flex",
-    justifyContent: "center",
-    paddingTop: "5%",
-    alignItems: "flex-start",
-    top: 0,
-    left: 0,
-    right: 0,
-    bottom: 0,
-    backgroundColor: "rgba(0, 0, 0, 0.65)",
-  },
-};
-
-const makeButton = (eduNum, modalClass, key) => {
-  let button = null;
-  button = (
-    <a
-      href={overview.education[eduNum].link}
-      aria-label="live preview"
-      target="_blank"
-      rel="noreferrer"
-      key={key}
-    >
-      <img
-        src={process.env.PUBLIC_URL + overview.education[eduNum].image}
-        alt={overview.education[eduNum].title}
-      />
-    </a>
-  );
-  return button;
-};
-
-export {
-  overview,
-  projects,
-  skills,
-  contact,
-  modal,
-  overview__Modal,
-  overview__ModalSmall,
-  overview__ModalMobile,
-  makeButton,
 };
