@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
 
-import { useRef } from "react";
+import { useRef, forwardRef } from "react";
 
 function App() {
   const intRef = useRef();

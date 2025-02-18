@@ -4,7 +4,7 @@ import EmailIcon from "@mui/icons-material/Email";
 import Arrow from "../Arrow/Arrow";
 import { overview } from "../Projects/Portfolio";
 import "./Contact.css";
-import { forwardRef } from "react";
+import { useRef, forwardRef } from "react";
 
 const Contact = forwardRef(({ refFunction }, ref) => {
   return (
