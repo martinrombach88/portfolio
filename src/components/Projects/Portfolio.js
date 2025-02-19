@@ -8,6 +8,14 @@ export const overview = {
 
 export const projects = [
   {
+    name: ".NET Best Practice API (In Progress)",
+    overview:
+      "A healthcare data comparison API for exploring repository pattern, testing coverage and SOLID principles.",
+    technology: [".NET | ", " CSharp |", " NUnit |", " Repository Pattern"],
+    sourceCode:
+      "https://github.com/martinrombach88/nunit-compare-healthcare-app",
+  },
+  {
     name: "CICD Calculator API",
     overview:
       'A calculator API built to explore CICD and TDD. Accepts + - / * and single bracket equation strings. To use, clone and deploy locally. Send a JSON object in this syntax {"expression": "1 + 1"} via POST request. ',
