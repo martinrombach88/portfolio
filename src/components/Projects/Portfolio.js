@@ -43,7 +43,7 @@ export const projects = [
       "React-Bootstrap",
     ],
     sourceCode: "https://github.com/martinrombach88/imtv_home",
-    livePreview: "https://www.martinrombachdev.com/imtv_home",
+    livePreview: "https://martinrombach88.github.io/imtv_home/",
   },
   {
     name: "Update IMTV",
