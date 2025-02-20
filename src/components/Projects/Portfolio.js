@@ -60,14 +60,6 @@ export const projects = [
     ],
     sourceCode: "https://github.com/martinrombach88/update_imtv",
   },
-  {
-    name: "Korean Listening By Sentence",
-    overview:
-      "A Korean repetitive listening app that splits audio files into segments.",
-    technology: ["React.js | ", "Material UI"],
-    sourceCode: "https://github.com/martinrombach88/korean_listening_app/",
-    livePreview: "https://martinrombach88.github.io/korean_listening_app/",
-  },
 ];
 
 export const contact = {
